@@ -1,3 +1,8 @@
+section{
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
 #callback-1 {
   display: flex;
   justify-content: flex-end;
@@ -9,14 +14,73 @@
   justify-content: flex-end;
 }
 
+#pagename{
+  display: flex;
+  flex-direction: column;
+  
+  font-size: 25px;
+  font-family: Raleway;
+  color: #ffffff;
+  background-color: #29bdca;
+}
+
 #buy {
   display: flex;
   justify-content: center;
+  
+  font-size: 18px;
+  font-family: Open Sans;
+  color: #2095b2;
   background-color: #cbf1f4;
 }
 
 #callback-2 {
   display: flex;
-  justify-content: center;
+  
+  font-size: 25px;
+  font-family: Raleway;
+  color: #ffffff;
   background-color: #29bdca;
+}
+#callback-2 ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#about {
+  display: flex;
+ 
+  color: #999999;
+  font-family: Open Sans;
+  font-size: 12px;
+  background-color: #444444
+}
+
+#about a{
+  color: #d6d6d6;
+  text-decoration: none;
+}
+
+#about li{
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright {
+  display: flex;
+  
+  color: #999999;
+  background-color: #333333;
+  font-family: Open Sans;
+  font-size: 11px;
+  
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: #2c2c2c;
+}
+
+#copyright a{
+  color: #d6d6d6;
+  text-decoration: none;
 }
